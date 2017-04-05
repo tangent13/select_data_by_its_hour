@@ -86,8 +86,8 @@ if __name__ == '__main__':
 	electricity_consumption, temperature = elect_data_by_its_hour(sh_reference, wb, ws_editted, hour, '/home/tangent13/Documents/9-20.xlsx')
 	#sh_reference, wb, ws_1, ws_2, ws_editted = open_workbook_and_wordsheet('/home/tangent13/Documents/9-20.xlsx',3)
 	#electricity_consumption, temperature = elect_data(sh_reference, wb, ws_editted, '/home/tangent13/Documents/9-20.xlsx')
-	print len(electricity_consumption)
-	print len(temperature)
+	#print len(electricity_consumption)
+	#print len(temperature)
 	tryFits(electricity_consumption, temperature, hour)
 	pylab.show()	
 
